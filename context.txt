@@ -1,0 +1,34 @@
+4 COMPARISON BASES IN ANALYTICS:
+1. Primary benchmark
+2. trend benchmark
+3. relative benchmark
+4. internal benchmark
+
+- Is engagement good or bad? Compared to what?
+
+Engagement is neither good nor bad in isolation. It must be evaluated relative to business outcomes, historical performance, peer segments, and defined benchmarks.
+
+Primary benchmark - engagement vs business outcome
+
+Higher engagement → higher conversion to paid?
+Higher engagement → longer subscription duration?
+Lower engagement → higher churn?
+
+operationalization:
+average engagement of paid vs free users
+engagement of retained vs churned users
+engagement quartiles vs revenue contribution (plot)
+
+Trend Benchmark - engagement vs time
+
+Current month vs previous month
+Pre- and post-subscription periods
+Early lifecycle vs mature users
+
+Relative benchmark - engagement vs peer segments
+
+Subscription plans
+Courses / student types
+New vs returning users
+
+- Does engagement lead to retention, upgrades, or churn?

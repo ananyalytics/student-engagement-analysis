@@ -1,0 +1,4 @@
+Sub_type,MOnthly Charge,Paid
+Free,0,FALSE
+Basic,19.99,TRUE
+Premium,29.99,TRUE

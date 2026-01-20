@@ -1,0 +1,15 @@
+User Behavior
+
+Which student segments are highly engaged but not paid?
+What engagement level typically precedes subscription purchase?
+Where does engagement drop off?
+
+Revenue & Growth
+
+Which subscription plans generate revenue but low engagement (churn risk)?
+Which plans have high engagement but low revenue (upsell opportunity)?
+
+Retention
+
+Is higher engagement actually correlated with longer subscriptions?
+Which cohorts disengage fastest?

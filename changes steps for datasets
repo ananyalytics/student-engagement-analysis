@@ -1,0 +1,4 @@
+Combined all three csv files into a single google sheet with multiple sheets.
+Converted the each dataset into table for simplicity and ease of use.
+Fixed date format in Engagement Data, changed from UK (DD-MM-YYYY) to US (MM-DD-YYYY) due to error in column type.
+Used to the google sheet formula: =IF(OR(F2="NULL", F2="null"), "", F2), as a data cleaning tool to eleminate the null values from last_login. did the same for enrollment_date and cancellation_date.
