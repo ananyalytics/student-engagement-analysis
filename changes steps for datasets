@@ -3,4 +3,11 @@ Converted the each dataset into table for simplicity and ease of use.
 Fixed date format in Engagement Data, changed from UK (DD-MM-YYYY) to US (MM-DD-YYYY) due to error in column type.
 Used to the google sheet formula: =IF(OR(F2="NULL", F2="null"), "", F2), as a data cleaning tool to eleminate the null values from last_login. did the same for enrollment_date and cancellation_date.
 Loaded the 'Student Engagement Data.xls' in Power BI.
-Used DAX to create a new column called Engagement Level to find some metrics. (upload image of DAX query)
+Used DAX to create a new column called Engagement Level to calculate some of the primary benchmarks. (upload image of DAX query)
+Identified the first primary benchmark: Higher engagement → higher conversion to paid? through clustered column chart - Student Engagement Distribution by Subscription Tier.
+Changed the dates format in Power BI from whole number to date.
+Created new column using DAX to identify the subscription duration by subtracting the cancellation date from the enrollment date, but for some students, recieved error like negative subscription duration. 
+Fixed the error by creating a new clean cancellation date and setting is as todays date using DAX, and the recalculated the subscrption duration which this time gave null values instead of error negative vcalues. 
+Finally used the newly created DAX columns, Engagement level and Subscription duration, to plot the chart Median User Tenure by Engagement Level, for the second primary benchmark.
+Imported Box and Whisker Chart by MAQ Software for the Final primary benchmark: Lower engagement → higher inactivity?.
+Plotted the final clustered column chart for engagement vs inactivity.
