@@ -11,3 +11,5 @@ Fixed the error by creating a new clean cancellation date and setting is as toda
 Finally used the newly created DAX columns, Engagement level and Subscription duration, to plot the chart Median User Tenure by Engagement Level, for the second primary benchmark.
 Imported Box and Whisker Chart by MAQ Software for the Final primary benchmark: Lower engagement → higher inactivity?.
 Plotted the final clustered column chart for engagement vs inactivity.
+Created a new donut chart for some basic insights like count of student id by syb_typoe.
+Finally, inserted some cards to present the average subscription days based on engagement level, and also added a slicer for engagement levels.
