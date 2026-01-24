@@ -17,3 +17,11 @@ Added a new page to the dashboard for the trend benchmark.
 The data is not evenet level, it is snapshot level and hence no time series analysis for each month can be done.
 Opted instead for Month-over-month comparison based on students last login activity.
      ## Important learning - what can I analyse, not what should I analyse ##
+Added new columns 'last_login_year', 'last_login_month' and 'login_month_number' using DAX.
+Sorted the 'last_login_month' by going into column tools, sort by column - 'login_month'.
+Created a clustered column chart to present the student engagement for each year and month. 
+Added a new column 'Subscription_Period' to identify the post- and pre-subscription periods, using DAX.
+Created a clustered column chart for subscription period.
+Filtered out the free users because they were never enrolled, hence never subscribed.
+Added slicers for month and year.
+Added KPIs like: avg time spent by month.
