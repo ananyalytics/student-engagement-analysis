@@ -25,5 +25,9 @@ Created a clustered column chart for subscription period.
 Filtered out the free users because they were never enrolled, hence never subscribed.
 Added slicers for month and year.
 Added a card for average engagement.
-Added a card for current active users.
+Added a card for the most recent activity.
 KPIs for average engagement before and after subscription.
+KPI for average subscription duration.
+     ## Canvas size of different pages should be same ##
+After some decoration and final touches, I realised that the canvas size was different for the primary and trend benchmar. 
+Spent some time fixing the visual look of the dashboard, re-arranging all charts and kpis.
