@@ -24,4 +24,6 @@ Added a new column 'Subscription_Period' to identify the post- and pre-subscript
 Created a clustered column chart for subscription period.
 Filtered out the free users because they were never enrolled, hence never subscribed.
 Added slicers for month and year.
-Added KPIs like: avg time spent by month.
+Added a card for average engagement.
+Added a card for current active users.
+KPIs for average engagement before and after subscription.
