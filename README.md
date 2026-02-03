@@ -33,22 +33,6 @@ Everything else exists to support these outputs.
 
 ---
 
-## 🧠 Core Analysis Concepts Used
-
-- **Primary Benchmarks**
-(Defining what “low / average / high” engagement means)
-
-- **Trend Benchmarks**
-(Understanding how engagement evolves across time)
-
-- **KPI Design**
-Engagement Rate, Active Users, Conversion Signals, Retention Indicators
-
-- **Assumption-Driven Analysis**
-Explicit constraints and limitations documented
-
----
-
 ## 🗂 Repository Structure (For Transparency)
 
 ```
@@ -85,28 +69,6 @@ student_engagement_analysis/
     └── dashboard_screenshots/
 ```
 
-
----
-
-## 📊 Dashboard Preview
-
-*(High-level snapshot — full interactivity available in Power BI file)*
-
-![Primary Benchmarks](assets/dashboard_screenshots/primary_benchmark.png)
-![Trend Benchmarks](assets/dashboard_screenshots/trend_benchmark.png)
-
----
-
-## 💡 Key Outcomes
-
-- Engagement benchmarks were **explicitly defined**, not assumed
-
-- Trends revealed **warning signals** for disengagement
-
-- Insights were translated into **actionable business recommendations**
-
-- Analysis decisions and assumptions were **clearly documented**
-
 ---
 
 ## ⚠️ Assumptions & Limitations
@@ -128,10 +90,9 @@ Full details:
 
 ---
 
-## 👤 Author
+## 📊 Dashboard Preview
 
-**Ananya Jha**
+*(Snapshot only — full interactivity available in Power BI file)*
 
-Aspiring Data / Business Analyst
-
-📍 Bengaluru, India
+![Primary Benchmarks](assets/dashboard_screenshots/primary_benchmark.png)
+![Trend Benchmarks](assets/dashboard_screenshots/trend_benchmark.png)
