@@ -66,7 +66,8 @@ student_engagement_analysis/
 │   └── student_engagement_analysis_presentation.pptx
 │
 └── assets/
-    └── dashboard_screenshots/
+    ├── dashboard_screenshots/
+    └── data_models/
 ```
 
 ---
