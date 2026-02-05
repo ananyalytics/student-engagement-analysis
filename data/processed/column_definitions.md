@@ -109,5 +109,3 @@ This document defines each column used in the **Student Engagement Analysis** da
 
 * Raw date fields are preserved for traceability; all analysis use the *_Updated columns.
 * The dataset is modeled at a **student-level grain** (one row per student).
-
----
