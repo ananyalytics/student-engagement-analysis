@@ -1,4 +1,4 @@
-# Insights & Recommendations – Student Engagement Analysis
+# Insights & Recommendations
 
 This document consolidates key insights and actionable recommendations derived from the Primary Benchmark and Trend Benchmark dashboards of the Student Engagement Analysis project.
 
