@@ -1,4 +1,4 @@
-# Column Definitions – Student Engagement Analysis
+# Column Definitions
 
 This document defines each column used in the **Student Engagement Analysis** dataset. It helps to clearly understand the relationships, data type, and role of every field.
 
