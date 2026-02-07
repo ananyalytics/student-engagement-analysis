@@ -55,7 +55,6 @@ student_engagement_analysis/
 │   │
 │   ├── analysis_workflow.md
 │   ├── key_metrics_and_kpis.md
-│   ├── business_questions.md
 │   └── assumptions_and_constraints.md
 │
 ├── dashboard/
