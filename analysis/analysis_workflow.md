@@ -2,11 +2,9 @@
 
 This document outlines the **end-to-end analytical workflow** followed to build the Student Engagement Analysis dashboards. It covers both **Google Sheets (data preparation)** and **Power BI (data modeling, analysis, and visualization)** steps, in the exact sequence they were performed.
 
-The goal is to demonstrate *process maturity*, not just final outputs.
-
 ---
 
-## Phase 1: Data Consolidation & Cleaning (Google Sheets)
+## Data Consolidation & Cleaning (Google Sheets)
 
 ### 1. Data Consolidation
 
@@ -47,7 +45,7 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 
 ---
 
-## Phase 2: Data Modeling & Primary Benchmark Analysis (Power BI)
+## Data Modeling & Primary Benchmark Analysis (Power BI)
 
 ### 5. Data Loading
 
@@ -59,9 +57,7 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 ### 6. Engagement Level Classification (DAX)
 
 * Created a calculated column **`Engagement Level`** using DAX to bucket students into engagement tiers.
-* This column became a foundational dimension for primary benchmarks.
-
-*(DAX logic documented separately via screenshot in project assets.)*
+* This column was a foundational dimension for primary benchmarks.
 
 ---
 
@@ -111,9 +107,8 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 
 ### 11. Primary Benchmark 3: Engagement vs Inactivity
 
-* Imported **Box and Whisker Chart** visual by *MAQ Software*.
+* Created a **clustered column chart** comparing engagement vs inactive status. 
 * Analyzed inactivity patterns across engagement levels.
-* Supplemented with a **clustered column chart** comparing engagement vs inactive status.
 
 ---
 
@@ -127,7 +122,7 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 
 ---
 
-## Phase 3: Trend Benchmark Analysis (Temporal Engagement)
+## Trend Benchmark Analysis (Temporal Engagement)
 
 ### 13. Snapshot-Level Data Constraint
 
@@ -154,7 +149,7 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 
 ---
 
-### 15. Monthly Engagement Trend Visualization
+### 15. Engagement Trend Visualization
 
 * Built a **clustered column chart**:
 
@@ -198,7 +193,7 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 
 ---
 
-## Phase 4: Dashboard Refinement & Visual Consistency
+## Dashboard Refinement & Visual Consistency
 
 ### 19. Layout & Canvas Standardization
 
@@ -214,17 +209,4 @@ The goal is to demonstrate *process maturity*, not just final outputs.
 
 ---
 
-## Outcome
-
-* Two cohesive, professional-grade dashboards:
-
-  * **Primary Benchmark** – Engagement vs retention and inactivity
-  * **Trend Benchmark** – Temporal engagement velocity and lifecycle comparison
-
-This workflow demonstrates a **realistic analytics lifecycle**, from raw CSVs to decision-ready dashboards.
-
----
-
-**Project:** Student Engagement Analysis
-**Author:** Ananya Jha
-**Focus:** Data Preparation, BI Modeling, and Insight Delivery
+**Note:** *DAX logics documented separately via screenshots in project assets.* 
