@@ -46,7 +46,7 @@ student_engagement_analysis/
 │   ├── key_metrics_and_kpis.md
 │   └── assumptions_and_constraints.md
 │
-└── assets/
+├── assets/
 │   ├── dashboard_screenshots/
 │   ├── data_models/
 │   └── dax/
