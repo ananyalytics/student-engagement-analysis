@@ -212,5 +212,7 @@ Therefore:
 ---
 
 **Project:** Student Engagement Analysis
+
 **Document Purpose:** Metric transparency and analytical clarity
+
 **Author:** Ananya Jha
