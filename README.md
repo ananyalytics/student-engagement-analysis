@@ -38,6 +38,22 @@ Everything else exists to support these outputs.
 ```
 student_engagement_analysis/
 │
+├── analysis/
+│   ├── insights/
+│   │   └── insights_and_recommendations.md
+│   │
+│   ├── analysis_workflow.md
+│   ├── key_metrics_and_kpis.md
+│   └── assumptions_and_constraints.md
+│
+└── assets/
+│   ├── dashboard_screenshots/
+│   ├── data_models/
+│   └── dax/
+│
+├── dashboard/
+│   └── student_engagement_powerbi_dashboard.pbix
+│
 ├── data/
 │   ├── raw/
 │   │   ├── engagement_data.csv
@@ -47,27 +63,12 @@ student_engagement_analysis/
 │   └── processed/
 │       ├── student_engagement_master_table.csv
 │       ├── student_engagement_master_table.xlsx
-│       └── column_definitions.md 
-│  
-├── analysis/
-│   ├── insights/
-│   │   └── insights_and_recommendations.md
-│   │
-│   ├── analysis_workflow.md
-│   ├── key_metrics_and_kpis.md
-│   └── assumptions_and_constraints.md
+│       └── column_definitions.md
 │
-├── dashboard/
-│   └── student_engagement_powerbi_dashboard.pbix
-│
-├── reports/
-│   ├── student_engagement_dashboard_report.pdf
-│   └── student_engagement_analysis_presentation.pptx
-│
-└── assets/
-    ├── dashboard_screenshots/
-    ├── data_models/
-    └── dax/
+└── reports/
+    ├── student_engagement_dashboard_report.pdf
+    └── student_engagement_analysis_presentation.pptx
+
 ```
 
 ---
