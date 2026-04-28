@@ -16,58 +16,36 @@ The goal is **not just visualization**, but to:
 
 - Translate insights into **business recommendations**
 
----
-
-## 🎯 What Should You Look At (Recommended Path)
-
-If you have 2-5 minutes, focus only on the following:
-
-| Priority | What | Location |
-|--------|-----|----------|
-| ⭐ **1** | **Interactive Power BI Dashboard** | `dashboard/student_engagement_powerbi_dashboard.pbix` |
-| ⭐ **2** | **Insights & Business Recommendations** | `analysis/insights/insights_and_recommendations.md` |
-| ⭐ **3** | **Dashboard Summary Report (PDF)** | `reports/student_engagement_dashboard_report.pdf` |
-| ⭐ **4** | **Executive Presentation** | `reports/student_engagement_analysis_presentation.pptx` |
-
-Everything else exists to support these outputs.
 
 ---
 
-## 🗂 Repository Structure (For Transparency)
+## 🗂 Repository Structure
 
 ```
 student_engagement_analysis/
 │
-├── analysis/
-│   ├── insights/
-│   │   └── insights_and_recommendations.md
-│   │
-│   ├── analysis_workflow.md
-│   ├── key_metrics_and_kpis.md
-│   └── assumptions_and_constraints.md
-│
-├── assets/
-│   ├── dashboard_screenshots/
-│   ├── data_models/
-│   └── dax/
-│
 ├── dashboard/
-│   └── student_engagement_powerbi_dashboard.pbix
+│   ├── dax_&_measures.md
+│   └── student_engagement_powerbi_dashboard.pbix
+│
+├── images/
+│   ├──Primary Benchmark.png
+│   └── Trend Benchmark.png
 │
 ├── data/
-│   ├── raw/
-│   │   ├── engagement_data.csv
-│   │   ├── student_data.csv
-│   │   └── subscription_data.csv
-│   │
-│   └── processed/
-│       ├── student_engagement_master_table.csv
-│       ├── student_engagement_master_table.xlsx
-│       └── column_definitions.md
+│   ├── raw/
+│   │   ├── engagement_data.csv
+│   │   ├── student_data.csv
+│   │   └── subscription_data.csv
+│   │
+│   └── processed/
+│       ├── student_engagement_master_table.xlsx
+│       └── column_definitions.md
 │
 └── reports/
-    ├── student_engagement_dashboard_report.pdf
-    └── student_engagement_analysis_presentation.pptx
+          ├── insights_and_recommendations.md
+          ├── dashboard.pdf
+          └── student_engagement_analysis_presentation.pptx
 
 ```
 
@@ -78,9 +56,7 @@ student_engagement_analysis/
 This project is based on **simulated / anonymized data** and does not represent a real company.
 However, the **analytical workflow, KPI logic, and decision framing** mirror real-world analytics practice.
 
-Full details:
 
-📄 analysis/assumptions_and_constraints.md
 
 ---
 
