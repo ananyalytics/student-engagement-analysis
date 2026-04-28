@@ -26,11 +26,11 @@ student_engagement_analysis/
 │
 ├── dashboard/
 │   ├── dax_&_measures.md
-│   └── student_engagement_powerbi_dashboard.pbix
+│   └── student_engagement_analysis.pbix
 │
 ├── images/
-│   ├──Primary Benchmark.png
-│   └── Trend Benchmark.png
+│   ├── PrimaryBenchmark.png
+│   └── TrendBenchmark.png
 │
 ├── data/
 │   ├── raw/
@@ -51,20 +51,19 @@ student_engagement_analysis/
 
 ---
 
-## ⚠️ Assumptions & Limitations
-
-This project is based on **simulated / anonymized data** and does not represent a real company.
-However, the **analytical workflow, KPI logic, and decision framing** mirror real-world analytics practice.
-
-
-
----
-
 ## 🧩 Tools Used
 
 - **Power BI** – Dashboarding & DAX
 
-- **Google Sheets** – Data cleaning & validation
+- **Microsoft Excel** – Data cleaning & validation
+
+---
+
+## 👉🏻 The Main Stuff
+
+- [**Power BI Dashboard**](dashboard/student_engagement_analysis.pbix)
+
+- [**Key Insights and Recommendations**](reports/insights_and_recommendations.md)
 
 ---
 
@@ -72,5 +71,5 @@ However, the **analytical workflow, KPI logic, and decision framing** mirror rea
 
 *(Snapshot only — full interactivity available in Power BI file)*
 
-![Primary Benchmarks](assets/dashboard_screenshots/primary_benchmark.png)
-![Trend Benchmarks](assets/dashboard_screenshots/trend_benchmark.png)
+![Primary Benchmarks](images/PrimaryBenchmark.png)
+![Trend Benchmarks](images/TrendBenchmark.png)
