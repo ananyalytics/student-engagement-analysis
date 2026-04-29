@@ -1,6 +1,14 @@
-# 📊 Student Engagement Analysis
+# ✈ Student Engagement Analysis
 
 *A Business & Data Analytics Case Study*
+
+---
+
+## Dataset Overview
+
+* **Records:** 500
+* **Features:** 9
+* **Source:** Kaggle [Edtech Engagement Data](https://www.kaggle.com/datasets/maggieakarn/edtech-engagement-data?select=Engagement+Data++.csv)
 
 ---
 
